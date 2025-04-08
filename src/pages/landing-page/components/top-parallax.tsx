@@ -286,22 +286,11 @@ export class LandingPage {
             <div class="reveal step-2">Batteries Included</div>
           </h1>
           <p class="parallax-header reveal step-3">
-            Say goodbye to wasted time post-reformatting with Install Doctor! Our revolutionary multi-OS desktop
-            provisioning system allows you to securely store your configurations in a git repository. With just a simple
-            one-liner, effortlessly restore your desktop to its former state after a reformat, saving you valuable time
-            and hassle. Unlock the full potential of Install Doctor with our exceptional preset featuring a vast array
-            of top-rated utilities and plugins, including cutting-edge AI-driven tools. Customize and make them your own
-            for an unparalleled experience.
-          </p>
-          <p class="parallax-header reveal step-4">
-            Discover Install Doctor's preloaded treasure trove: hundreds of top-rated utilities and plugins, including
-            advanced AI tools, ready for your customization. Join our email newsletter and be the first to get exclusive
-            updates on building the ultimate personalized desktop experience. Together, we can make desktop setup a
-            thing of the past!
+            Say goodbye to post-reformat headaches with Install Doctor! Restore your desktop in minutes using a simple one-liner, powered by your own secure git-stored config.
           </p>
           <div class="btns">
             <Button
-              class="reveal step-5"
+              class="reveal step-4"
               kind="round"
               color="indigo"
               variation="light"
@@ -312,7 +301,7 @@ export class LandingPage {
               {this.showCommunity ? 'Join Community' : 'Get Beta Access'} <span>{'->'}</span>
             </Button>
             <Button
-              class="reveal step-6"
+              class="reveal step-5"
               kind="round"
               color="indigo"
               href="#welcome"
